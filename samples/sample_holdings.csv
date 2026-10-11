@@ -1,0 +1,6 @@
+scheme_code,scheme_name,amc,category,folio_number,units,nav,current_value,invested_value,plan,investment_date,sip_amount,sip_frequency
+PPFCF-GR,Parag Parikh Flexi Cap Fund Direct Growth,PPFAS Mutual Fund,Equity,1111111/11,250.000,80.00,,15000,Direct,2023-01-10,5000,Monthly
+PPFCF-GR,Parag Parikh Flexi Cap Fund Direct Growth,PPFAS Mutual Fund,Equity,2222222/22,100.000,80.00,,6000,Direct,2023-06-15,,
+UTINIFTY-GR,UTI Nifty 50 Index Fund Direct Growth,UTI Mutual Fund,Equity,3333333/33,400.000,150.00,,50000,Direct,2022-04-01,,
+HDFCSTF-GR,HDFC Short Term Debt Fund Regular Growth,HDFC Mutual Fund,Debt,4444444/44,1000.000,30.00,,27000,Regular,2023-03-20,,
+ICICIBAF-GR,ICICI Prudential Balanced Advantage Fund Direct Growth,ICICI Prudential Mutual Fund,Hybrid,5555555/55,300.000,,21000,20000,Direct,2024-01-05,2000,Monthly
