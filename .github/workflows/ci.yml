@@ -27,9 +27,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Build image
-        run: docker build -t kuvera-portfolio-analytics:${{ github.sha }} .
+        run: docker build -t my-mf-portfolio:${{ github.sha }} .
       - name: Smoke test Streamlit
         run: |
-          docker run -d --name app -p 8501:8501 kuvera-portfolio-analytics:${{ github.sha }}
+          docker run -d --name app -p 8501:8501 my-mf-portfolio:${{ github.sha }}
           for i in $(seq 1 30); do curl -sf http://localhost:8501/_stcore/health && break; sleep 1; done
           curl -sf http://localhost:8501/_stcore/health | grep -q ok

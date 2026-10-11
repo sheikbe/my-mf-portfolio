@@ -1,4 +1,4 @@
-# kuvera-portfolio-analytics
+# my-mf-portfolio
 
 A Streamlit dashboard for analysing your mutual fund portfolio from [Kuvera](https://kuvera.in):
 current value, invested amount, gains, XIRR, allocation (category / AMC / direct vs regular),
@@ -62,8 +62,8 @@ or click **Try with sample data**.
 ### Docker
 
 ```bash
-docker build -t kuvera-portfolio-analytics .
-docker run --rm -p 8501:8501 --env-file .env kuvera-portfolio-analytics
+docker build -t my-mf-portfolio .
+docker run --rm -p 8501:8501 --env-file .env my-mf-portfolio
 ```
 
 ## Getting your Kuvera token
